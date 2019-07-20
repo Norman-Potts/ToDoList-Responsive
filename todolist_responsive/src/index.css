@@ -1,0 +1,97 @@
+/* Global Styles then Small devices then larger devices. */
+body {
+  background: rgb(102, 179, 255);
+  font-family: "Arial";
+}
+h1, h2 {
+			padding-left: 1em;
+}
+
+.DEFCON1 {
+  color:black;
+  font-weight:bold;
+  background: #ffffff; 
+}
+.DEFCON2 {
+  color:black;
+  font-weight:bold;
+  background: #ff7373; 
+}
+.DEFCON3 {
+  color:black;
+  font-weight:bold;
+  background: #fdff73;
+}
+.DEFCON4 {
+  color:black;
+  font-weight:bold;
+  background: #00d200; 
+}
+.DEFCON5 {
+  color:black;
+  font-weight:bold;
+  background: #008dff;
+}
+ 
+
+/* Small Devices */
+@media only screen and (max-width: 600px) {
+  /* Les Styles de leform */
+  #leform { padding-left: 5%; padding-right: 5%; border: 3px solid black; display: block;	font-weight: bold; background: white; }
+  #containForm {   }
+  textarea { resize: none; display: inline; max-width: 90%; border: 1px solid black;  }
+  input { resize: none; display: inline; max-width: 70%; border: 1px solid black; }
+  p { max-width: 90%; font-size: 100%; overflow-x:  hidden; }
+  .PriorityBlock { display: inline-block; margin-right: 1em; white-space: nowrap; }
+  .selectdateblocks { display: inline-block; margin-right: 1em; white-space: nowrap; }
+  /* Finite Les Styles de leform */
+
+  #lalist { padding: 0; padding-top: 2.5%; }
+
+  /* Styles for the task componets */
+  .task { font-size: 100%; margin-bottom: 1em; display: block; border: 3px solid rgb(255, 128, 128); background: rgb(255, 193, 179); }
+  .tktitle { font-size: 1.3em; margin:0; display: block; border: 1px solid rgb(255, 128, 128); padding-left:1em; overflow: hidden; }
+  .tktopRow {}
+  .tkCreatedOn { padding-left:1em; border: 1px solid rgb(255, 128, 128); }
+  .tkdescription  { padding-bottom: 1em; margin:0; display: block; border:1px solid rgb(255, 128, 128); padding-left:1em; overflow: hidden; }
+  .tknotes  {  margin:0; display: block; border:1px solid rgb(255, 128, 128); padding-left:1em; overflow: hidden; }
+  .tkbottomRow {display:block; border:1px solid rgb(255, 128, 128); }
+  .tklvl  {padding-bottom: 1.23%; margin:0; display: block; border:1px solid rgb(255, 128, 128); padding-left:1em; overflow: hidden; }
+  .tkdue  {padding-bottom: 1.23%; margin:0; display: block; border:1px solid rgb(255, 128, 128); padding-left:1em; overflow: hidden; }
+  .tkcomplete {padding-bottom: 1.23%; margin:0; display: block; border:1px solid rgb(255, 128, 128); padding-left:1em; overflow: hidden; }
+  .tkdelspace {padding-bottom: 1.23%; margin:0; display: block; border:1px solid rgb(255, 128, 128); padding-left:1em; overflow: hidden; }
+
+
+  /* End Styles for the task componets */
+}
+
+
+
+
+/* Larger devices */
+@media only screen and (min-width: 600px) {
+  /* Les Styles de leform */
+  #leform { padding-left: 5%; padding-right: 5%; border: 3px solid black; display: inline-block;	font-weight: bold; background: white; text-align: left;   }
+  
+  textarea { resize: none; display: inline; max-width: 90%; border: 1px solid black;  }
+  input { resize: none; display: inline; max-width: 70%; border: 1px solid black; }
+  p { max-width: 90%; font-size: 100%; overflow-x:  hidden; }
+  .PriorityBlock { display: inline-block; margin-right: 1em; white-space: nowrap; }
+  .selectdateblocks { display: inline-block; margin-right: 1em; white-space: nowrap; }
+  /* Finite Les Styles de leform */
+
+  #lalist { padding: 0; padding-top: 2.5%; }
+
+  /* CSS or tasks */
+  .task { font-size: 1rem; margin-bottom: 1em; display: block; border: 3px solid rgb(255, 128, 128); background: rgb(255, 193, 179); }
+  .tktitle {  white-space: nowrap; font-size: 0.8rem; margin:0; display: inline-block; border: 1px solid rgb(255, 128, 128); padding-left:1em; overflow: hidden; width: 70%;  height:100%;  }
+  .tktopRow {  overflow: hidden; height: 2em; display:block; border:1px solid rgb(255, 128, 128); white-space: nowrap;}
+  .tkCreatedOn {font-size: 0.8rem; margin:0; display: inline-block; border: 1px solid rgb(255, 128, 128); padding-left:1em;  overflow: hidden; width: 30%; height:100%;  }
+  .tkdescription  { font-size: 0.8rem; word-wrap: break-word; padding-bottom: 1em; margin:0; display: block; border:1px solid rgb(255, 128, 128); padding-left:1em; overflow: hidden; }
+  .tknotes  {  margin:0; display: block; border:1px solid rgb(255, 128, 128); padding-left:1em; overflow: hidden; }
+  .tkbottomRow { overflow: hidden; height: 2em; display:block; border:1px solid rgb(255, 128, 128); white-space: nowrap; }
+  .tklvl  {  font-size: 100%; height:100%; min-width:22%; padding-left:1.5%; padding-right:1.5%; margin:0; display: inline-block; border:1px solid rgb(255, 128, 128);  overflow: hidden; }
+  .tkdue  {  font-size: 100%; height:100%; min-width:22%; padding-left:1.5%; padding-right:1.5%; margin:0; display: inline-block; border:1px solid rgb(255, 128, 128);  overflow: hidden; }
+  .tkcomplete {  font-size: 100%;  height:100%; min-width:22%; padding-left:1.5%; padding-right:1.5%; margin:0; display: inline-block; border:1px solid rgb(255, 128, 128);  overflow: hidden; }
+  .tkdelspace { font-size: 100%;  height:100%; width:24%; padding-left:1.5%; padding-right:1.5%; margin:0; display: inline-block; border:1px solid rgb(255, 128, 128); overflow: hidden; }
+}
