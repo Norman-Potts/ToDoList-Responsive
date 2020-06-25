@@ -9,4 +9,6 @@ The create react app still has the npm run scripts attacheds such as 'start', 'b
 
 The goal of this project is to make a good looking to do list that uses my own CSS, rather than a bootstrap CSS.
 
-Improvements to this project is to make it properly responsive to mobile devices. 
+Improvements needed for this project.
+Improve responsive design for desktop, make this centerned and not so wide. 
+Keep mobile design good. 
