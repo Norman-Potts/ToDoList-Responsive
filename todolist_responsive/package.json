@@ -9,6 +9,7 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
+	"App": "concurrently \"npm start\" \"cd todolist_server && node server\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
